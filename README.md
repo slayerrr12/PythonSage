@@ -1,2 +1,1 @@
-# password_generator
-Basic password generator using python
+#Documenting my journey of learning python 
