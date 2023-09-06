@@ -1,4 +1,8 @@
 class Point : 
+    
+    origin = (0,0)
+    
+    
     def __init__(self,x,y) :
         self.x = x 
         self.y = y 
@@ -10,6 +14,8 @@ class Point :
 
 p1 = Point(10,20)
 p1.tellValue()
+p2 = Point(12,42)
+print(p2.origin,p1.origin,Point.origin)
         
         
         
