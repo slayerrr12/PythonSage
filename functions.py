@@ -1,6 +1,8 @@
-def greet(a,b,c,*other):
+def greet(*other):
     print("Hello")
+    print(other)
     print("Good Morning")
     
     
-greet()
+greet("hi","hello","donewithit",2,22,2,22,2,2,2,2)
+
