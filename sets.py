@@ -23,6 +23,4 @@ print(a2)
 
 print(a1&a2)
 
-my_list = [1, 2, 3, 4, 5]
-reversed_list = my_list[::-1]
-print(reversed_list)
+
