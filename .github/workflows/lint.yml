@@ -24,14 +24,10 @@ jobs:
       - name: Install dependencies
         run: pip install pylint 
 
-      - name: Convert Jupyter notebooks to Python scripts
-        run: |
-          nbstripout --keep -t notebook your_notebooks_directory/
-          find . -name "*.ipynb" -exec jupyter nbconvert --to script {} \;
+      
 
       - name: Lint Python code
-        run: pylint your_python_scripts_directory/
+        run: pylint Cool Scripts/
 
-      - name: Check for linting issues in Jupyter notebooks
-        run: pylint --load-plugins=pylint_nb your_notebooks_directory/
+      
 
