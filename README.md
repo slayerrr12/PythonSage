@@ -21,9 +21,16 @@ If you're new to Python or programming in general, here are some steps to get st
    git clone "Repository Link"
    ```
 
-2. **Explore the Content:** Take a look at the project's files and folders to find tutorials, code examples, and exercises.
+2. **Install All the Dependencies :** .
+  
+   ```
+   pip install -r requirements.txt
+   
+   ```
+   
+3. **Explore the Content:** Take a look at the project's files and folders to find tutorials, code examples, and exercises.
 
-3. **Start Learning:** Dive into the resources available in the repository, follow the tutorials, and experiment with the code examples.
+4. **Start Learning:** Dive into the resources available in the repository, follow the tutorials, and experiment with the code examples.
 
 ## Prerequisites
 
