@@ -19,7 +19,7 @@ If you're new to Python or programming in general, here are some steps to get st
 
    ```
       git clone https://github.com/slayerrr12/PythonSage.git
-      cd Filencrypt
+      cd PythonSage
       pip install -r requirements.txt
       
    ```
