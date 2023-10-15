@@ -18,7 +18,7 @@ If you're new to Python or programming in general, here are some steps to get st
 1. **Clone the Repository:** You can clone this repository to your local machine using the following command:
 
    ```
-   git clone "Repository Link"
+   git clone ["Repository Link"](https://github.com/slayerrr12/PythonSage.git)
    ```
 
 2. **Install All the Dependencies :** .
