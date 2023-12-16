@@ -2,16 +2,16 @@ import random
 import string
 
 # Define the characters to choose from for each category
-lowercase_letters = string.ascii_lowercase
-uppercase_letters = string.ascii_uppercase
-digits = string.digits
+LOWERCASE_LETTERS = string.ascii_lowercase
+UPPERCASE_LETTERS = string.ascii_uppercase
+DIGITS = string.digits
 
 # Combine all characters into one pool
-all_characters = lowercase_letters + uppercase_letters + digits
+ALL_CHARACTERS = LOWERCASE_LETTERS + UPPERCASE_LETTERS + DIGITS
 
 # Generate a random password of length 8
-password_length = 8
-password = ''.join(random.choice(all_characters) for _ in range(password_length))
+PASSWORD_LENGTH = 8
+PASSWORD = ''.join(random.choice(ALL_CHARACTERS) for _ in range(PASSWORD_LENGTH))
 
 # Print the generated password
-print("Random Password:",password)
+print("Random Password:", PASSWORD)
