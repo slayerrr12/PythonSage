@@ -5,6 +5,17 @@ Merge two PDF files into one.
 import PyPDF2
 
 def merge_pdfs(pdf1_path, pdf2_path, output_path):
+    """
+    Merge two PDF files into a single PDF file.
+
+    Args:
+        pdf1_path (str): The file path of the first PDF.
+        pdf2_path (str): The file path of the second PDF.
+        output_path (str): The file path of the merged PDF.
+
+    Returns:
+        None
+    """
     # Open the PDFs in binary mode
     with open(pdf1_path, 'rb') as pdf1_file, open(pdf2_path, 'rb') as pdf2_file:
         # Create PDF reader objects
